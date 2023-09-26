@@ -61,7 +61,7 @@ function App() {
               <button>Contact</button>
             </div>
           </nav>
-          <div className='textoEImg'>
+          <div className='textoEImagen'>
             <h1>I'm <strong>Mehmet Eren Olgum</strong></h1>
             <p>Entrepreneur, front-end developer, UI & UX</p>
             <p>designer and student.</p>
@@ -80,7 +80,7 @@ function App() {
             </div>
           </div>
         </section>
-        <h1 id='#'>What I do?</h1>
+        <h1>What I do?</h1>
         <section className='div-whatIDo'>
 
           <div className='divs'>
