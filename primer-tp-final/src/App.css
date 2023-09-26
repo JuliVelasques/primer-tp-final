@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fondo{
+    background-image: url(./assets/cap2.png);
+    height: 1000px;
+
+}
+.comienzo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-bottom: 200px; */
+}
+.contenedorUno{
+    border: 4px solid black;
+    border-radius: 30px;
+    height: 610px;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+    background-color:white;
+}
+.primerTitulo{
+    display: flex;
+    align-items: flex-start;
+    height: 230px;
+    width: 500px;
+    justify-content: center;
+    padding: 45px;
+    color:rgb(114, 114, 114);
+    font-size:medium;
+}
+.contenedoIconoYTexto{
+    display: flex;
+    justify-content: space-between;
+}
+.bi-list{
+    width: 100px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    align-items: end;
+}
+.menuTexto{
+    display: flex;
+    height: 60px;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: end;
+}
+.menu{
+    font-size: 13px;
+    padding-left: 15px;
+    text-align:center;
+}
+.padrePrimeraParte{
+    /* background-color: darksalmon; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.medioPrimeraParte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tituloMedioPrimeraParte{
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+    /* background-color: blue; */
+    height: 215px;
+    width: 100%;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+}
+.textoNegro{
+    width: 75%;
+    padding-left: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.textoMedioSegundaParte{
+    width: 490px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.miImagen{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: royalblue; */
+    height: 100%;
+    width: 100%;
+}
+.imagen{
+   width: 55%;
+   height: 50%;
+   border-radius: 5px;
+}
+.divPadreInicio{
+    height: 105px;
+    /* background-color: cyan; */
+    display: flex;
+}
+.finalParteInicial{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* background-color: red; */
+    width: 50%;
+}
+.iconosParteFinalInicio{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* background-color: blue; */
+    width: 50%;
+}
+.bi-linkedin{
+    width: 45px;
+    font-size: 17px;
+}
+.bi-github{
+    width: 45px;
+    font-size: 17px;
+}
+.bi-instagram{
+    width: 45px;
+    font-size: 17px;
+}
+.bi-facebook{
+    width: 45px;
+    font-size: 17px;
+}
+.bi-twitter{
+    font-size: 17px;
+}
+
+
+/* Segunda Parte */
+.menu-Inico-De-Pagina{
+    display: flex;
+    justify-content: space-between;
+}
+.Icono-bi{
+    font-size: 50px;
+    width: 250px;
+    height: 230px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 7px;
+}
+.menu-Opciones{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+    width: 38%;
+    padding: 7px;
+}
+button{
+    margin: 7px;
+    padding: 10px;
+    background-color:white;
+    border: none;
+}
+
+
+
+/* Tercera Parte */
+.div-whatIDo{
+display: flex;
+    justify-content: space-evenly;
+}
+.divs{
+    padding: 20px;
+    margin: 40px;
+    width: 350px;
+}
