@@ -153,7 +153,6 @@
 .menu-Inico-De-Pagina{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 .Icono-bi{
     font-size: 50px;
