@@ -168,30 +168,63 @@
     flex-direction: row;
     align-items: end;
     justify-content: start;
-    width: 38%;
+    width: 43%;
     padding: 7px;
+
 }
 button{
-    margin: 7px;
-    padding: 10px;
-    background-color:white;
+    margin: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+    width: 18.3%;
     border: none;
     font-size: medium;
+    background-color: white;
 }
 .textoEImagen{
+    height: 540px;
+    width: 95%;
     display: flex;
-    background-color: aquamarine;
-    height: 600px;
+    flex-direction: row;
     justify-content: space-between;
+}
+.texto-h{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloTexto{
+    font-size: 50px;
+    height: 13%;
+    width: 76%;
+    text-align: start;
+}
+.distincionDeLetra{
+    font-weight:900;
+}
+.textoSubtitulo{
+    height: 15%;
+    width: 78%;
+    font-size: 27px;
+    text-align: justify;
+    padding-left: 1.5%;
 }
 .miImagen1{
     display: flex;
-    flex-direction: row;
-    background-color: yellowgreen;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    width: 40%;
+    width: 30%;
 }
+.imagen1{
+    width: 320px;
+    border-radius: 7px;
+}
+
+
 .div-whatIDo{
     display: flex;
     justify-content: space-evenly;

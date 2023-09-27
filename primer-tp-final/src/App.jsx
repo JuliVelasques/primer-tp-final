@@ -64,12 +64,12 @@ function App() {
           <div className='textoEImagen'>
             <div className='texto-h'>
               <h1 className='tituloTexto'>
-                I'm <b>Mehmet Eren Olgum</b>
+                I'm <b className='distincionDeLetra'>Mehmet Eren Olgum</b>
               </h1>
-              <h3 className='texto-p'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
+              <h3 className='textoSubtitulo'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
             </div>
             <div className='miImagen1'>
-              <img className='imagen' src={logo} alt="Imagen" />
+              <img className='imagen1' src={logo} alt="Imagen" />
             </div>
           </div>
           <div>
