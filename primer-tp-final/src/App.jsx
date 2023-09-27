@@ -62,11 +62,16 @@ function App() {
             </div>
           </nav>
           <div className='textoEImagen'>
-            <h1>I'm <strong>Mehmet Eren Olgum</strong></h1>
-            <p>Entrepreneur, front-end developer, UI & UX</p>
-            <p>designer and student.</p>
+            <div className='texto-h'>
+              <h1 className='tituloTexto'>
+                I'm <b>Mehmet Eren Olgum</b>
+              </h1>
+              <h3 className='texto-p'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
+            </div>
+            <div className='miImagen1'>
+              <img className='imagen' src={logo} alt="Imagen" />
+            </div>
           </div>
-          <img src="" alt="" />
           <div>
             <div>
               <link rel="stylesheet" href="" />

@@ -176,13 +176,24 @@ button{
     padding: 10px;
     background-color:white;
     border: none;
+    font-size: medium;
 }
-
-
-
-/* Tercera Parte */
+.textoEImagen{
+    display: flex;
+    background-color: aquamarine;
+    height: 600px;
+    justify-content: space-between;
+}
+.miImagen1{
+    display: flex;
+    flex-direction: row;
+    background-color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
 .div-whatIDo{
-display: flex;
+    display: flex;
     justify-content: space-evenly;
 }
 .divs{
