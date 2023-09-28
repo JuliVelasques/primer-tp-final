@@ -72,35 +72,36 @@ function App() {
               <img className='imagen1' src={logo} alt="Imagen" />
             </div>
           </div>
-          <div>
-            <div>
-              <link rel="stylesheet" href="" />
-              <link rel="stylesheet" href="" />
-              <link rel="stylesheet" href="" />
-              <link rel="stylesheet" href="" />
-              <link rel="stylesheet" href="" />
+          <div className='finaParteInicial'>
+            <div className='ubicacionIconos'>
+              <i className="biLinkedin1 bi-linkedin"></i>
+              <i className="biGithub1 bi-github"></i>
+              <i className="biInstagram1 bi-instagram"></i>
+              <i className="biFacebook1 bi-facebook"></i>
+              <i className="biTwitter1 bi-twitter"></i>
             </div>
-            <div>
-              <p>eren@jairida.com</p>
+            <div className='ubicacionTexto'>
+              <p className='tamañoTexto'>eren@jairida.com</p>
             </div>
           </div>
         </section>
-        <h1>What I do?</h1>
-        <section className='div-whatIDo'>
+        <section>
+          <h1>What I do?</h1>
+          <nav className='div-whatIDo'>
 
-          <div className='divs'>
-            <h2>UI & UX Design</h2>
-            <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
-          </div>
-          <div className='divs'>
-            <h2>Webside</h2>
-            <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
-          </div>
-          <div className='divs'>
-            <h2>Mobile Aplication</h2>
-            <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
-          </div>
-
+            <div className='divs'>
+              <h2>UI & UX Design</h2>
+              <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
+            </div>
+            <div className='divs'>
+              <h2>Webside</h2>
+              <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
+            </div>
+            <div className='divs'>
+              <h2>Mobile Aplication</h2>
+              <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
+            </div>
+          </nav>
         </section>
       </main>
 

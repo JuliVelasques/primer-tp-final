@@ -13,8 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* margin-bottom: 200px; */
 }
 .contenedorUno{
     border: 4px solid black;
@@ -224,6 +222,45 @@ button{
     border-radius: 7px;
 }
 
+.finaParteInicial{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.ubicacionIconos{
+    width: 33.7%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.biLinkedin1{
+    font-size: 21px;
+}
+.biGithub1{
+    font-size: 21px;
+}
+.biInstagram1{
+    font-size: 21px;
+}
+.biFacebook1{
+    font-size: 21px;
+}
+.biTwitter1{
+    font-size: 21px;
+}
+.ubicacionTexto{
+    width: 23.5%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.tamañoTexto{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+}
 
 .div-whatIDo{
     display: flex;
