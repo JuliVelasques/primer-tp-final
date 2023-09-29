@@ -85,10 +85,9 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
-          <h1>What I do?</h1>
-          <nav className='div-whatIDo'>
-
+        <section className='seccion-WhatIdo'>
+          <h1 className='titulo-whatido'>What I do?</h1>
+          <nav className='div-texto-que-hago'>
             <div className='divs'>
               <h2>UI & UX Design</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
@@ -98,6 +97,7 @@ function App() {
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
+            <i class="fi fi-rs-display-code"></i>
               <h2>Mobile Aplication</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>

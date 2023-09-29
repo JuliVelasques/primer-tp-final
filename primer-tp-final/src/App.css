@@ -1,20 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-.fondo{
+
+.fondo {
     background-image: url(./assets/cap2.png);
     height: 1000px;
 
 }
-.comienzo{
+
+.comienzo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contenedorUno{
+
+.contenedorUno {
     border: 4px solid black;
     border-radius: 30px;
     height: 610px;
@@ -22,54 +25,61 @@
     display: flex;
     flex-direction: column;
     padding: 20px 80px;
-    background-color:white;
+    background-color: white;
 }
-.primerTitulo{
+
+.primerTitulo {
     display: flex;
     align-items: flex-start;
     height: 230px;
     width: 500px;
     justify-content: center;
     padding: 45px;
-    color:rgb(114, 114, 114);
-    font-size:medium;
+    color: rgb(114, 114, 114);
+    font-size: medium;
 }
-.contenedoIconoYTexto{
+
+.contenedoIconoYTexto {
     display: flex;
     justify-content: space-between;
 }
-.bi-list{
+
+.bi-list {
     width: 100px;
     height: 60px;
     font-size: 40px;
     display: flex;
     align-items: end;
 }
-.menuTexto{
+
+.menuTexto {
     display: flex;
     height: 60px;
     width: 50%;
     justify-content: flex-end;
     align-items: end;
 }
-.menu{
+
+.menu {
     font-size: 13px;
     padding-left: 15px;
-    text-align:center;
+    text-align: center;
 }
-.padrePrimeraParte{
-    /* background-color: darksalmon; */
+
+.padrePrimeraParte {
     height: 70%;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-.medioPrimeraParte{
+
+.medioPrimeraParte {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.tituloMedioPrimeraParte{
+
+.tituloMedioPrimeraParte {
     display: flex;
     align-items: end;
     padding-bottom: 5px;
@@ -79,14 +89,16 @@
     font-size: 35px;
     color: rgb(24, 24, 24);
 }
-.textoNegro{
+
+.textoNegro {
     width: 75%;
     padding-left: 5px;
     font-size: 35px;
     font-weight: 700;
     color: black;
 }
-.textoMedioSegundaParte{
+
+.textoMedioSegundaParte {
     width: 490px;
     height: 80px;
     display: flex;
@@ -94,7 +106,8 @@
     font-size: 20px;
     font-weight: 500;
 }
-.miImagen{
+
+.miImagen {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -102,57 +115,67 @@
     height: 100%;
     width: 100%;
 }
-.imagen{
-   width: 55%;
-   height: 50%;
-   border-radius: 5px;
+
+.imagen {
+    width: 55%;
+    height: 50%;
+    border-radius: 5px;
 }
-.divPadreInicio{
+
+.divPadreInicio {
     height: 105px;
     /* background-color: cyan; */
     display: flex;
 }
-.finalParteInicial{
+
+.finalParteInicial {
     display: flex;
     justify-content: end;
     align-items: end;
     /* background-color: red; */
     width: 50%;
 }
-.iconosParteFinalInicio{
+
+.iconosParteFinalInicio {
     display: flex;
     justify-content: start;
     align-items: end;
     /* background-color: blue; */
     width: 50%;
 }
-.bi-linkedin{
+
+.bi-linkedin {
     width: 45px;
     font-size: 17px;
 }
-.bi-github{
+
+.bi-github {
     width: 45px;
     font-size: 17px;
 }
-.bi-instagram{
+
+.bi-instagram {
     width: 45px;
     font-size: 17px;
 }
-.bi-facebook{
+
+.bi-facebook {
     width: 45px;
     font-size: 17px;
 }
-.bi-twitter{
+
+.bi-twitter {
     font-size: 17px;
 }
 
 
 /* Segunda Parte */
-.menu-Inico-De-Pagina{
+.menu-Inico-De-Pagina {
     display: flex;
     justify-content: space-between;
 }
-.Icono-bi{
+
+.Icono-bi {
     font-size: 50px;
     width: 250px;
     height: 230px;
@@ -161,7 +184,8 @@
     justify-content: center;
     padding: 7px;
 }
-.menu-Opciones{
+
+.menu-Opciones {
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -170,103 +194,141 @@
     padding: 7px;
 
 }
-button{
+
+button {
     margin: 0.5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px ;
+    padding: 10px;
     width: 18.3%;
     border: none;
     font-size: medium;
     background-color: white;
 }
-.textoEImagen{
+
+.textoEImagen {
     height: 540px;
     width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.texto-h{
+
+.texto-h {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.tituloTexto{
+
+.tituloTexto {
     font-size: 50px;
     height: 13%;
     width: 76%;
     text-align: start;
 }
-.distincionDeLetra{
-    font-weight:900;
+
+.distincionDeLetra {
+    font-weight: 900;
 }
-.textoSubtitulo{
+
+.textoSubtitulo {
     height: 15%;
     width: 78%;
     font-size: 27px;
     text-align: justify;
     padding-left: 1.5%;
 }
-.miImagen1{
+
+.miImagen1 {
     display: flex;
     justify-content: end;
     align-items: center;
     width: 30%;
 }
-.imagen1{
+
+.imagen1 {
     width: 320px;
     border-radius: 7px;
 }
 
-.finaParteInicial{
+.finaParteInicial {
     width: 100%;
     height: 120px;
     display: flex;
     justify-content: space-between;
 }
-.ubicacionIconos{
+
+.ubicacionIconos {
     width: 33.7%;
     display: flex;
     justify-content: center;
     align-items: end;
 }
-.biLinkedin1{
+
+.biLinkedin1 {
     font-size: 21px;
 }
-.biGithub1{
+
+.biGithub1 {
     font-size: 21px;
 }
-.biInstagram1{
+
+.biInstagram1 {
     font-size: 21px;
 }
-.biFacebook1{
+
+.biFacebook1 {
     font-size: 21px;
 }
-.biTwitter1{
+
+.biTwitter1 {
     font-size: 21px;
 }
-.ubicacionTexto{
+
+.ubicacionTexto {
     width: 23.5%;
     display: flex;
     align-items: end;
     justify-content: center;
 
 }
-.tamañoTexto{
+
+.tamañoTexto {
     font-size: large;
     font-weight: 600;
     color: rgb(19, 19, 19);
 }
 
-.div-whatIDo{
+.seccion-WhatIdo{
+    background-color: aqua;
+    width: 100%;
+    height: 495px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: end;
 }
-.divs{
+
+.titulo-whatido{
+    width: 28%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 40px;
+    font-weight:700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-texto-que-hago {
+    display: flex;
+    justify-content: center;
+}
+
+.divs {
     padding: 20px;
     margin: 40px;
     width: 350px;
