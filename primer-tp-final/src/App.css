@@ -327,6 +327,10 @@ button {
     display: flex;
     justify-content: center;
 }
+.bi-icono-telefono{
+    font-size: 45px;
+    background-color: white;
+}
 
 .divs {
     padding: 20px;

@@ -97,7 +97,7 @@ function App() {
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
-            <i class="fi fi-rs-display-code"></i>
+            <i class="bi-icono-telefono bi-phone"></i>
               <h2>Mobile Aplication</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
