@@ -89,10 +89,12 @@ function App() {
           <h1 className='titulo-whatido'>What I do?</h1>
           <nav className='div-texto-que-hago'>
             <div className='divs'>
+            <i className="bi-icono-display bi-display"></i>
               <h2>UI & UX Design</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
+            <i className="bi-icono-display bi-display"></i>
               <h2>Webside</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
@@ -102,6 +104,20 @@ function App() {
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
           </nav>
+        </section>
+        <section className='padre-iconos'>
+            <h1>Skills</h1>
+            <div className='iconos-trabajo'>
+            <i className="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="bi bi-bootstrap-fill"></i>
+              
+            </div>
+            <div className='iconos-trabajo'>
+            <i class="fa-brands fa-js"></i>
+            <i class="iconoReact fa-brands fa-react"></i>
+            </div>
+            <img  src="https://img.icons8.com/ios/50/adobe-xd--v1.png" alt="adobe-xd--v1"/>
         </section>
       </main>
 
