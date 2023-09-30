@@ -54,11 +54,11 @@ function App() {
               <i className=" Icono-bi bi-list"></i>
             </div>
             <div className='menu-Opciones'>
-              <button>Home</button>
-              <button>Services</button>
-              <button>Skills</button>
-              <button>Experience</button>
-              <button>Contact</button>
+              <a className='a-menu' href="" id='#Home'>Home</a>
+              <a className='a-menu' href="" id='#Servicio'>Servicio</a>
+              <a className='a-menu' href="" id='#Skills'>Skills</a>
+              <a className='a-menu' href="" id='#Experience'>Experience</a>
+              <a className='a-menu' href="" id='#Contact'>Contact</a>
             </div>
           </nav>
           <div className='textoEImagen'>
@@ -74,11 +74,23 @@ function App() {
           </div>
           <div className='finaParteInicial'>
             <div className='ubicacionIconos'>
-              <i className="biLinkedin1 bi-linkedin"></i>
-              <i className="biGithub1 bi-github"></i>
-              <i className="biInstagram1 bi-instagram"></i>
-              <i className="biFacebook1 bi-facebook"></i>
-              <i className="biTwitter1 bi-twitter"></i>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i className="biLinkedin1 bi-linkedin"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <i className="biGithub1 bi-github"></i>
+              </a>
+
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="biInstagram1 bi-instagram"></i>
+              </a>
+
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <i className="biFacebook1 bi-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i className="biTwitter1 bi-twitter"></i>
+              </a>
             </div>
             <div className='ubicacionTexto'>
               <p className='tamañoTexto'>eren@jairida.com</p>
@@ -89,35 +101,34 @@ function App() {
           <h1 className='titulo-whatido'>What I do?</h1>
           <nav className='div-texto-que-hago'>
             <div className='divs'>
-            <i className="bi-icono-display bi-display"></i>
+              <i className="bi-icono-display bi-display"></i>
               <h2>UI & UX Design</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
-            <i className="bi-icono-display bi-display"></i>
+              <i className="bi-icono-display bi-display"></i>
               <h2>Webside</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
-            <i class="bi-icono-telefono bi-phone"></i>
+              <i class="bi-icono-telefono bi-phone"></i>
               <h2>Mobile Aplication</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
           </nav>
         </section>
         <section className='padre-iconos'>
-            <h1>Skills</h1>
-            <div className='iconos-trabajo'>
-            <i className="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="bi bi-bootstrap-fill"></i>
-              
-            </div>
-            <div className='iconos-trabajo'>
-            <i class="fa-brands fa-js"></i>
-            <i class="iconoReact fa-brands fa-react"></i>
-            </div>
-            <img  src="https://img.icons8.com/ios/50/adobe-xd--v1.png" alt="adobe-xd--v1"/>
+          <h1>Skills</h1>
+          <div className='iconos-trabajo'>
+            <i className="icono fa-brands fa-html5"></i>
+            <i class="icono fa-brands fa-css3-alt"></i>
+            <i class="icono bi bi-bootstrap-fill"></i>
+            <i className="icono fa-brands fa-js"></i>
+            <i className="icono fa-brands fa-react"></i>
+            <div class="linea-negra"></div>
+            <img className='icono' src="https://img.icons8.com/ios/50/adobe-xd--v1.png" alt="adobe-xd--v1" />
+          </div>
+          
         </section>
       </main>
 

@@ -195,16 +195,18 @@
 
 }
 
-button {
+.a-menu {
     margin: 0.5px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     width: 18.3%;
-    border: none;
+    /* background-color: aqua; */
+    border-radius: 10px;
     font-size: medium;
-    background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
 .textoEImagen {
@@ -269,23 +271,28 @@ button {
 }
 
 .biLinkedin1 {
-    font-size: 21px;
+    font-size: 22px;
+    color: black;
 }
 
 .biGithub1 {
-    font-size: 21px;
+    font-size: 22px;
+    color: black;
 }
 
 .biInstagram1 {
-    font-size: 21px;
+    font-size: 22px;
+    color: black;
 }
 
 .biFacebook1 {
-    font-size: 21px;
+    font-size: 22px;
+    color: black;
 }
 
 .biTwitter1 {
-    font-size: 21px;
+    font-size: 22px;
+    color: black;
 }
 
 .ubicacionTexto {
@@ -347,21 +354,31 @@ button {
     flex-direction: column;
     align-items: center;
     background-color: aqua;
-    /* height: 300px;
-    width: 70%; */
     border: 2px solid black;
 }
 
 .iconos-trabajo{
     display: flex;
-    font-size: 80px;
-    justify-content: space-around;
     flex-wrap: wrap;
+    font-size: 60px;
+    /* justify-content: space-; */
     background-color: antiquewhite;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 40%;
 }
 
-.iconoReact{
-    font-size: 80px;
+.linea-negra {
+    width: 80%; 
+    height: 2px; 
+    background-color: gray; 
 }
+  
+.icono{
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    /* background-color: #ccc; */
+}
+
+/* .iconoReact{
+    font-size: 80px;
+} */
