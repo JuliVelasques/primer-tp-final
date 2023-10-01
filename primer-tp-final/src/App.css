@@ -359,9 +359,10 @@
 }
 
 .tituloSkills{
-    /* background-color: yellowgreen; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 87%;
     height: 100px;
+    margin-bottom: 20px;
     font-size: xx-large;
     display: flex;
     align-items: center;
@@ -378,7 +379,6 @@
     
 }
 
-/* fijarse y arreglar */
 .icono {
     width: calc(27% - 2px);
     display: flex;
@@ -387,13 +387,38 @@
 
 }
 
+.iconos-abajo-linea{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+}
+
+.icono-adobe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto-icono-abajo{
+    font-size: large;
+    margin-left: 10px;
+    font-weight: 700;
+    width: 345px;
+}
+
+.sub-icono{
+    width: 60px;
+    margin: 20px 0;
+}
+
 .texto-iconos-skills {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px;
     height: 40px;
     display: flex;
     align-items: center;
-    font-weight: 700;
+    width: 150px;
+    font-family:sans-serif;
 }
 
 .linea-negra {
@@ -412,14 +437,42 @@
 
 /* seccion-de-experiencia */
 .seccion-de-experiencia{
-    background-color: aqua;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 170px;
 }
 
 .h2-y-p{
     width: 87%;
+}
+
+.titulo-experiencia{
+    width: 87%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: xx-large;
+}
+
+.subtitulo-experiencia{
+    font-size: 21px;
+    height: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.texto-founder{
+    margin: 15px 0;
+    width: calc(84.5%);
+    color: rgb(87, 84, 84);
+    font-size:calc(14.4px);
+}
+
+.linea-gris{
+    width: calc(84%);
+    height: calc(1.5px);
+    background-color: rgb(204, 204, 204);   
 }
