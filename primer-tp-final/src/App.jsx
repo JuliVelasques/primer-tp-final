@@ -162,24 +162,34 @@ function App() {
         </section>
         <section className='parte-contactame'>
           <div className='parte-di-hola'>
-              <h1 className='titulo-di-hola'>Just say hi.</h1>
-              <p className='texto-di-hola'>I'm always open discuss your project and talk about new things.</p>
-              <div className='texto-icono-dihola'>
-                <div>
-                  <h5>Mail me at</h5>
-                  <p>eren@jayrida.com</p>
-                </div>
-                <div>
-                  <h5>Folow me</h5>
-                  <nav>
-                    <i className="bi bi-linkedin"></i>
-                    <i className="bi bi-github"></i>
-                    <i className="bi bi-instagram"></i>
-                    <i className="bi bi-facebook"></i>
-                    <i className="bi bi-twitter"></i>
-                  </nav>
-                </div>
+            <h1 className='titulo-di-hola'>Just say hi.</h1>
+            <p className='texto-di-hola'>I'm always open discuss your project and talk about new things.</p>
+            <div className='texto-icono-dihola'>
+              <div>
+                <h5>Mail me at</h5>
+                <p>eren@jayrida.com</p>
               </div>
+              <div className='iconos-sigueme'>
+                <h5>Folow me</h5>
+                <nav className='iconos-redes-sociales'>
+                  <a className='red-icono' href="https://www.linkedin.com/in/julian-rodrigues-velasques-bb4376279/">
+                    <i className="bi bi-linkedin"></i>
+                  </a>
+                  <a className='red-icono' href="https://github.com/JuliVelasques">
+                    <i className="bi bi-github"></i>
+                  </a>
+                  <a className='red-icono' href="https://www.instagram.com/julian.04v/">
+                    <i className="bi bi-instagram"></i>
+                  </a>
+                  <a className='red-icono' href="https://www.facebook.com/julian.velasques.71/about_overview">
+                    <i className="bi bi-facebook"></i>
+                  </a>
+                  <a className='red-icono' href="">
+                    <i className="bi bi-twitter"></i>
+                  </a>
+                </nav>
+              </div>
+            </div>
           </div>
           <div className='sub-cuerpo'>
             <form className='cuerpo' action="https://formsubmit.co/c6da41a5b590655b858402a8ef49d56b" method="POST">
@@ -204,6 +214,20 @@ function App() {
 
             </form>
           </div>
+        </section>
+        <p className='Copyright'>Copyright © 2020. All rights reserved.</p>
+        <section className='tipografia'>
+          <h1 className='titulo-tipografia'>Typography</h1>
+          <nav className='forma-tipografica'>
+            <div className='Aa'>
+              <p className='letras-a'>Aa</p>
+            </div>
+            <div className='abcdario'>
+              <h1 className='titulo-abcdario'>Rubik</h1>
+              <p className='abecedario-letras'>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Vv Ww Xx Yy Zz</p>
+              <p className='numeros-tipografia'>1 2 3 4 5 6 7 8 9 0</p>
+            </div>
+          </nav>
         </section>
       </main>
 

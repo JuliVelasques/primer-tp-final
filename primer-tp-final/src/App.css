@@ -358,7 +358,7 @@
     margin-top: 170px;
 }
 
-.tituloSkills{
+.tituloSkills {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 87%;
     height: 100px;
@@ -369,14 +369,14 @@
 }
 
 .iconos-trabajo {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     font-size: 50px;
     width: 87%;
     justify-content: space-between;
     height: 50%;
     /* background-color: aqua; */
-    
+
 }
 
 .icono {
@@ -387,26 +387,26 @@
 
 }
 
-.iconos-abajo-linea{
+.iconos-abajo-linea {
     width: 90%;
     display: flex;
     justify-content: start;
 }
 
-.icono-adobe{
+.icono-adobe {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.texto-icono-abajo{
+.texto-icono-abajo {
     font-size: large;
     margin-left: 10px;
     font-weight: 700;
     width: 345px;
 }
 
-.sub-icono{
+.sub-icono {
     width: 60px;
     margin: 20px 0;
 }
@@ -418,7 +418,7 @@
     display: flex;
     align-items: center;
     width: 150px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .linea-negra {
@@ -427,7 +427,7 @@
     background-color: gray;
 }
 
-.icono-de-abajo{
+.icono-de-abajo {
     width: 70px;
     background-color: aqua;
     border: 2px solid black;
@@ -436,7 +436,7 @@
 }
 
 /* seccion-de-experiencia */
-.seccion-de-experiencia{
+.seccion-de-experiencia {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,119 +444,216 @@
     margin-top: 170px;
 }
 
-.h2-y-p{
+.h2-y-p {
     width: 87%;
 }
 
-.titulo-experiencia{
+.titulo-experiencia {
     width: 87%;
     height: 100px;
     display: flex;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;
 }
 
-.subtitulo-experiencia{
+.subtitulo-experiencia {
     font-size: 21px;
     height: 40px;
     display: flex;
     align-items: end;
 }
 
-.texto-founder{
+.texto-founder {
     margin: 15px 0;
     width: calc(84.5%);
     color: rgb(87, 84, 84);
-    font-size:calc(14.4px);
+    font-size: calc(14.4px);
 }
 
-.linea-gris{
+.linea-gris {
     width: calc(84%);
     height: calc(1.5px);
-    background-color: rgb(204, 204, 204);   
+    background-color: rgb(204, 204, 204);
 }
 
 /* Parte de Contact me */
 
-.parte-contactame{
-    background-color: aqua;
+.parte-contactame {
     display: flex;
     justify-content: space-evenly;
     margin-top: 150px;
 }
 
-.parte-di-hola{
-    background-color: chartreuse;
+.parte-di-hola {
     width: 480px;
 }
 
-.titulo-di-hola{
-    /* background-color: blueviolet; */
+.titulo-di-hola {
     height: 75px;
     display: flex;
     align-items: end;
     font-size: 35px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212121;
 }
 
-.texto-di-hola{
-    /* background-color: red; */
+.texto-di-hola {
     height: 140px;
     display: flex;
     align-items: center;
     font-size: 22px;
     font-weight: 700;
     text-align: justify;
+    color: #212121;
 }
 
-.texto-icono-dihola{
-    background-color: blueviolet;
+.texto-icono-dihola {
     height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: end;
+    color: #212121;
+    font-size: 18px;
 }
 
-.sub-cuerpo{
-    background-color: black;
+.iconos-sigueme {
+    width: 150px;
+    color: #212121;
+}
+
+.iconos-redes-sociales {
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+}
+
+.red-icono {
+    color: #212121;
+}
+
+.sub-cuerpo {
+    background-color: #212121;
     color: white;
     width: 610px;
-    height: 330px;
+    height: 360px;
     display: flex;
     justify-content: space-between;
 }
 
-.cuerpo{
+.cuerpo {
     display: flex;
     flex-direction: column;
     padding: 50px;
     width: 95%;
 }
 
-.descripcion{
+/* Arreglar Formulario */
+.descripcion {
     color: white;
-    background-color: black;
+    background-color: #212121;
     border: none;
     border-bottom: 1px solid white;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 5px;
 }
 
-.label-descripcion{
-    /* background-color: blue; */
+.label-descripcion {
     margin-top: 10px;
 }
 
-.espacio-enviar{
+.espacio-enviar {
     width: 100%;
     margin-top: 30px;
     display: flex;
     justify-content: end;
 }
 
-.boton-enviar{
-    width: 80px;
-    height: 40px;
+.boton-enviar {
+    width: 75px;
+    height: 35px;
     text-align: center;
+    font-size: medium;
+}
+
+.Copyright {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9b9a9a;
+    font-size: large;
+    font-weight: 700;
+}
+
+/* Tipografia */
+.tipografia{
+    background-color: #212121;
+    width: 100%;
+    height: 300vh;
+}
+
+.titulo-tipografia{
+    width: 55vh;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #f8f8f8;
+}
+
+.forma-tipografica{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Aa{
+    height: 110vh;
+    width: 55%;
+}
+
+.letras-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    font-size: 570px;
+    color: rgb(63, 63, 63);
+}
+
+.abcdario{
+    height: 95vh;
+    width:  30%;
+}
+
+.titulo-abcdario{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: end;
+    font-size: 70px;
+    color: white;
+}
+
+.abecedario-letras{
+    width: 84%;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 10px 0 0;
+    margin-top: 50px;
+    color: #f8f8f8;
+    height: 100px;
+}
+
+.numeros-tipografia{
+    width: 65%;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #f8f8f8;
+    text-align: justify;
 }
