@@ -476,3 +476,87 @@
     height: calc(1.5px);
     background-color: rgb(204, 204, 204);   
 }
+
+/* Parte de Contact me */
+
+.parte-contactame{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.parte-di-hola{
+    background-color: chartreuse;
+    width: 480px;
+}
+
+.titulo-di-hola{
+    /* background-color: blueviolet; */
+    height: 75px;
+    display: flex;
+    align-items: end;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texto-di-hola{
+    /* background-color: red; */
+    height: 140px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.texto-icono-dihola{
+    background-color: blueviolet;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sub-cuerpo{
+    background-color: black;
+    color: white;
+    width: 610px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 95%;
+}
+
+.descripcion{
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.label-descripcion{
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+
+.espacio-enviar{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.boton-enviar{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}

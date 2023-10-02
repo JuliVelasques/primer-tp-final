@@ -160,8 +160,50 @@ function App() {
             </p>
           </div>
         </section>
-        <section>
-          
+        <section className='parte-contactame'>
+          <div className='parte-di-hola'>
+              <h1 className='titulo-di-hola'>Just say hi.</h1>
+              <p className='texto-di-hola'>I'm always open discuss your project and talk about new things.</p>
+              <div className='texto-icono-dihola'>
+                <div>
+                  <h5>Mail me at</h5>
+                  <p>eren@jayrida.com</p>
+                </div>
+                <div>
+                  <h5>Folow me</h5>
+                  <nav>
+                    <i className="bi bi-linkedin"></i>
+                    <i className="bi bi-github"></i>
+                    <i className="bi bi-instagram"></i>
+                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-twitter"></i>
+                  </nav>
+                </div>
+              </div>
+          </div>
+          <div className='sub-cuerpo'>
+            <form className='cuerpo' action="https://formsubmit.co/c6da41a5b590655b858402a8ef49d56b" method="POST">
+              <label htmlFor="Nombre">Your Name</label>
+              <input type="text" name='name' />
+
+              <label className='label-descripcion' htmlfor="email">Your email address</label>
+              <input type="email" name='email' />
+
+              <label className='label-descripcion' htmlfor="subject">Your budget (opcional)</label>
+              <input type="text" name='subject' />
+
+              <label className='label-descripcion' htmlfor="comments">Your project description</label>
+              <textarea className='descripcion' name="comments" cols="15" rows="5"></textarea>
+
+              <div className='espacio-enviar'>
+                <input className='boton-enviar' type="submit" value="Submit" />
+              </div>
+
+              <input type="hidden" name='_next' value="http://localhost:5173/" />
+              <input type="hidden" name='_captcha' value="false" />
+
+            </form>
+          </div>
         </section>
       </main>
 
