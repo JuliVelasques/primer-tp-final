@@ -228,6 +228,19 @@ function App() {
               <p className='numeros-tipografia'>1 2 3 4 5 6 7 8 9 0</p>
             </div>
           </nav>
+          <div>
+            <h1>Colors</h1>
+            <ul className='posicion-colores'>
+              <div className='posicion-colores1'>
+                <p className='colorblanco'></p>
+                <h2>#f8f8f8</h2>
+              </div>
+              <div className='posicion-colores2'>
+                <p className='colornegro'></p>
+                <h2>#212121</h2>
+              </div>
+            </ul>
+          </div>
         </section>
       </main>
 

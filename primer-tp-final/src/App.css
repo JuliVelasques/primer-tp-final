@@ -627,7 +627,7 @@
 
 .abcdario{
     height: 95vh;
-    width:  30%;
+    width:  33%;
 }
 
 .titulo-abcdario{
@@ -640,13 +640,14 @@
 }
 
 .abecedario-letras{
-    width: 84%;
+    width: 75%;
     font-size: 26px;
     font-weight: 700;
-    padding: 0 10px 0 0;
     margin-top: 50px;
     color: #f8f8f8;
-    height: 100px;
+    height: 80px;
+    margin: 10px 0 20px 0;
+    text-align:justify;
 }
 
 .numeros-tipografia{
@@ -656,4 +657,33 @@
     margin-top: 5px;
     color: #f8f8f8;
     text-align: justify;
+}
+
+.posicion-colores{
+    display: flex;
+    background-color: deeppink;
+    height: 300px;
+    width: 45%;
+    justify-content: end;
+    align-items: center;
+}
+
+.posicion-colores{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.colorblanco{
+    background-color: #f8f8f8;
+    width: 130px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.colornegro{
+    background-color: #212121;
+    width: 130px;
+    height: 160px;
+    border-radius: 20px;
+    border: 1.5px solid #f8f8f8;
 }
