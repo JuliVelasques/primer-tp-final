@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <header className='fondo'>
-        <h3 className='primerTitulo'>WEB DESIGN / 2020</h3>
+        <h3 className='primerTitulo' id='Home'>WEB DESIGN / 2020</h3>
         <section className='comienzo'>
           <nav className='contenedorUno'>
             <div className='contenedoIconoYTexto'>
@@ -55,11 +55,11 @@ function App() {
               <i className=" Icono-bi bi-list"></i>
             </div>
             <div className='menu-Opciones'>
-              <a className='a-menu' href="" id='#Home'>Home</a>
-              <a className='a-menu' href="" id='#Servicio'>Servicio</a>
-              <a className='a-menu' href="" id='#Skills'>Skills</a>
-              <a className='a-menu' href="" id='#Experience'>Experience</a>
-              <a className='a-menu' href="" id='#Contact'>Contact</a>
+              <a className='a-menu' href="#Home">Home</a>
+              <a className='a-menu' href="#Servicio">Servicio</a>
+              <a className='a-menu' href="#Skills">Skills</a>
+              <a className='a-menu' href="#Experience">Experience</a>
+              <a className='a-menu' href="#Contact">Contact</a>
             </div>
           </nav>
           <div className='textoEImagen'>
@@ -99,26 +99,26 @@ function App() {
           </div>
         </section>
         <section className='seccion-WhatIdo'>
-          <h1 className='titulo-whatido'>What I do?</h1>
+          <h1 className='titulo-whatido' id='Servicio'>What I do?</h1>
           <nav className='div-texto-que-hago'>
             <div className='divs'>
               <i className="bi-icono-display bi-display"></i>
-              <h2>UI & UX Design</h2>
+              <h2 className='titulos-de-que-hago'>UI & UX Design</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
               <i className="bi-icono-display bi-display"></i>
-              <h2>Webside</h2>
+              <h2 className='titulos-de-que-hago'>Webside</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
               <i class="bi-icono-telefono bi-phone"></i>
-              <h2>Mobile Aplication</h2>
+              <h2 className='titulos-de-que-hago'>Mobile Aplication</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
           </nav>
         </section>
-        <section className='padre-iconos'>
+        <section className='padre-iconos' id='Skills'>
           <h1 className='tituloSkills'>Skills</h1>
           <ul className='iconos-trabajo'>
             <i className="icono fa-brands fa-html5"><p className='texto-iconos-skills'>HTML 5</p></i>
@@ -146,7 +146,7 @@ function App() {
             </div>
           </ul>
         </section>
-        <section className='seccion-de-experiencia'>
+        <section className='seccion-de-experiencia' id='Experience'>
           <h1 className='titulo-experiencia'>Experience</h1>
           <div className='h2-y-p'>
             <h2 className='subtitulo-experiencia'>Founder-jayrida (August 2020-Present)</h2>
@@ -154,13 +154,13 @@ function App() {
               Duis pharetra turpis, in ullamcorper lacus vulputate a. Ut tincidunt dolor id placerat accumsan. Aenean eget arcu ut libero vehicula bibendum rhoncus et tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam imperdiet luctus lectus. Pellentesque habitant morbi tristique senectus et malesuada fames ac turpis egestas. In elementum urna vel purus volutpat blandit. Integer efficitur, libero at finibus mattis, diam justo dictum orci, nec lobortis nunc risus eu enim. Proin quis turpis dui. Donec quis condimentus sem, a malesuada lorem. Dius egestas dolor turpis, ut aliquet elit lacinia ut. Donec tincidunt tincidunt facilisis. Fusce eu dolor nulla. Phasellus ullamcorper dui libero, nec malesuada meuris semper convallis.
             </p>
             <div class="linea-gris"></div>
-            <h2 className='subtitulo-experiencia'>Voluntary Internship-Albatros Yazilim</h2>
+            <h2 className='subtitulo-experiencia'>Voluntary Internship-Albatros Yazilim (July 2020)</h2>
             <p className='texto-founder'>
               Duis pharetra turpis, in ullamcorper lacus vulputate a. Ut tincidunt dolor id placerat accumsan. Aenean eget arcu ut libero vehicula bibendum rhoncus et tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam imperdiet luctus lectus. Pellentesque habitant morbi tristique senectus et malesuada fames ac turpis egestas. In elementum urna vel purus volutpat blandit. Integer efficitur, libero at finibus mattis, diam justo dictum orci, nec lobortis nunc risus eu enim. Proin quis turpis dui. Donec quis condimentus sem, a malesuada lorem. Dius egestas dolor turpis, ut aliquet elit lacinia ut. Donec tincidunt tincidunt facilisis. Fusce eu dolor nulla. Phasellus ullamcorper dui libero, nec malesuada meuris semper convallis.
             </p>
           </div>
         </section>
-        <section className='parte-contactame'>
+        <section className='parte-contactame' id='Contact'>
           <div className='parte-di-hola'>
             <h1 className='titulo-di-hola'>Just say hi.</h1>
             <p className='texto-di-hola'>I'm always open discuss your project and talk about new things.</p>
@@ -193,14 +193,14 @@ function App() {
           </div>
           <div className='sub-cuerpo'>
             <form className='cuerpo' action="https://formsubmit.co/c6da41a5b590655b858402a8ef49d56b" method="POST">
-              <label htmlFor="Nombre">Your Name</label>
-              <input type="text" name='name' />
+              <label htmlFor="Nombre"></label>
+              <input className='formulario-datos' type="text" name='name' placeholder='Your Name'/>
 
-              <label className='label-descripcion' htmlfor="email">Your email address</label>
-              <input type="email" name='email' />
+              <label className='label-descripcion' htmlfor="email"></label>
+              <input className='formulario-datos' type="email" name='email' placeholder='Your email address'/>
 
-              <label className='label-descripcion' htmlfor="subject">Your budget (opcional)</label>
-              <input type="text" name='subject' />
+              <label className='label-descripcion' htmlfor="subject"></label>
+              <input className='formulario-datos' type="text" name='subject' placeholder='Your budget (opcional)'/>
 
               <label className='label-descripcion' htmlfor="comments">Your project description</label>
               <textarea className='descripcion' name="comments" cols="15" rows="5"></textarea>
@@ -242,7 +242,12 @@ function App() {
           </ul>
         </section>
       </main>
-
+      <footer className='estructura-ultima-parte'>
+        <h1 className='titulo-ultima-parte'>Thanks for watching</h1>
+        <h3 className='sub-titulo-ultima-parte'>Available for new projects</h3>
+        <p className='pagina-com'>eren@jayrida.com</p>
+        <p className='texto-gmail'>mehmeterenolgun@gmail.com</p>
+      </footer>
     </>
   )
 }
