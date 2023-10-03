@@ -121,12 +121,11 @@ function App() {
         <section className='padre-iconos' id='Skills'>
           <h1 className='tituloSkills'>Skills</h1>
           <ul className='iconos-trabajo'>
-            <i className="icono fa-brands fa-html5"><p className='texto-iconos-skills'>HTML 5</p></i>
-            <i className="icono fa-brands fa-css3-alt"><p className='texto-iconos-skills'>CSS 3</p></i>
-            <i className="icono bi bi-bootstrap-fill"><p className='texto-iconos-skills'>Bootstrap</p></i>
-            <i className="icono fa-brands fa-js"><p className='texto-iconos-skills'>Javascript</p></i>
-            <i className="icono fa-brands fa-react">
-              <p className='texto-iconos-skills'>React</p></i>
+            <i className="icono icono1 fa-brands fa-html5"><p className='texto-iconos-skills'>HTML 5</p></i>
+            <i className="icono icono2 fa-brands fa-css3-alt"><p className='texto-iconos-skills'>CSS 3</p></i>
+            <i className="icono icono3 bi bi-bootstrap-fill"><p className='texto-iconos-skills'>Bootstrap</p></i>
+            <i className="icono icono4 fa-brands fa-js"><p className='texto-iconos-skills'>Javascript</p></i>
+            <i className="icono icono5 fa-brands fa-react"><p className='texto-iconos-skills'>React</p></i>
             <i className='icono'></i>
             <div class="linea-negra"></div>
             <div className='iconos-abajo-linea'>
