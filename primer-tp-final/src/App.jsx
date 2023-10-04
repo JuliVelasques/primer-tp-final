@@ -1,12 +1,15 @@
 import logo from './assets/imagen.png';
 import iconoUno from './assets/icono-fotoshop.svg';
+import React, { useState } from "react";
 import './App.css'
 
 function App() {
 
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <>
-      <header className='fondo'>
+      <div className='fondo'>
         <h3 className='primerTitulo' id='Home'>WEB DESIGN / 2020</h3>
         <section className='comienzo'>
           <nav className='contenedorUno'>
@@ -47,57 +50,62 @@ function App() {
             </div>
           </nav>
         </section>
+      </div>
+      <header>
+        <div className="Navbar">
+          <div className="nav_logo">
+            <i className="bi bi-list"></i>
+          </div>
+          <div className={`nav_items ${isOpen && "open"}`}>
+            <a href="#Home">Home</a>
+            <a href="#Servicio">Servicio</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Contact">Contact</a>
+          </div>
+          <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)} >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div className='textoEImagen'>
+          <div className='texto-h'>
+            <h1 className='tituloTexto'>
+              I'm <b className='distincionDeLetra'>Mehmet Eren Olgum</b>
+            </h1>
+            <h3 className='textoSubtitulo'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
+          </div>
+          <div className='miImagen1'>
+            <img className='imagen1' src={logo} alt="Imagen" />
+          </div>
+        </div>
+        <div className='finaParteInicial'>
+          <div className='ubicacionIconos'>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <i className="biLinkedin1 bi-linkedin"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <i className="biGithub1 bi-github"></i>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <i className="biInstagram1 bi-instagram"></i>
+            </a>
+
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="biFacebook1 bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="biTwitter1 bi-twitter"></i>
+            </a>
+          </div>
+          <div className='ubicacionTexto'>
+            <p className='tamañoTexto'>eren@jairida.com</p>
+          </div>
+        </div>
       </header>
       <main>
-        <section>
-          <nav className='menu-Inico-De-Pagina'>
-            <div>
-              <i className=" Icono-bi bi-list"></i>
-            </div>
-            <div className='menu-Opciones'>
-              <a className='a-menu' href="#Home">Home</a>
-              <a className='a-menu' href="#Servicio">Servicio</a>
-              <a className='a-menu' href="#Skills">Skills</a>
-              <a className='a-menu' href="#Experience">Experience</a>
-              <a className='a-menu' href="#Contact">Contact</a>
-            </div>
-          </nav>
-          <div className='textoEImagen'>
-            <div className='texto-h'>
-              <h1 className='tituloTexto'>
-                I'm <b className='distincionDeLetra'>Mehmet Eren Olgum</b>
-              </h1>
-              <h3 className='textoSubtitulo'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
-            </div>
-            <div className='miImagen1'>
-              <img className='imagen1' src={logo} alt="Imagen" />
-            </div>
-          </div>
-          <div className='finaParteInicial'>
-            <div className='ubicacionIconos'>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <i className="biLinkedin1 bi-linkedin"></i>
-              </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                <i className="biGithub1 bi-github"></i>
-              </a>
-
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <i className="biInstagram1 bi-instagram"></i>
-              </a>
-
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <i className="biFacebook1 bi-facebook"></i>
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <i className="biTwitter1 bi-twitter"></i>
-              </a>
-            </div>
-            <div className='ubicacionTexto'>
-              <p className='tamañoTexto'>eren@jairida.com</p>
-            </div>
-          </div>
-        </section>
         <section className='seccion-WhatIdo'>
           <h1 className='titulo-whatido' id='Servicio'>What I do?</h1>
           <nav className='div-texto-que-hago'>
@@ -135,7 +143,7 @@ function App() {
                 </svg>
                 <p className='texto-icono-abajo'>Adobe Xd</p>
               </div>
-              <div className='icono-adobe'>
+              <div className='icono-photoshop'>
                 <svg className='sub-icono' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
                   <path d="M 6 4 C 4.9069372 4 4 4.9069372 4 6 L 4 44 C 4 45.093063 4.9069372 46 6 46 L 44 46 C 45.093063 46 46 45.093063 46 44 L 46 6 C 46 4.9069372 45.093063 4 44 4 L 6 4 z M 6 6 L 44 6 L 44 44 L 6 44 L 6 6 z M 18.585938 14 C 17.145937 14 15.993953 14.160016 15.001953 14.416016 L 15 36 L 17.464844 36 L 17.464844 26.830078 C 17.816844 26.861078 18.136734 26.861328 18.552734 26.861328 C 20.472734 26.861328 22.488625 26.062891 23.640625 24.462891 C 24.473625 23.374891 24.951172 22.030875 24.951172 20.046875 C 24.951172 18.159875 24.407766 16.590406 23.384766 15.566406 C 22.264766 14.478406 20.568938 14 18.585938 14 z M 18.976562 15.640625 C 21.727562 15.640625 22.623047 17.622078 22.623047 19.830078 C 22.623047 22.870078 20.990797 24.470703 18.591797 24.470703 C 18.175797 24.470703 17.887609 24.439203 17.599609 24.408203 L 17.599609 15.800781 C 17.919609 15.703781 18.400562 15.640625 18.976562 15.640625 z M 31.716797 20 C 29.225797 20 27.300781 21.768641 27.300781 24.306641 C 27.300781 26.073641 28.427531 27.423234 30.519531 28.740234 C 32.145531 29.768234 32.576172 30.603969 32.576172 31.792969 C 32.576172 33.173969 31.648703 34.041016 30.220703 34.041016 C 29.190703 34.041016 28.194859 33.591281 27.630859 33.238281 L 27 35.099609 C 27.697 35.645609 28.992297 36 30.154297 36 C 32.810297 36 35 34.490047 35 31.373047 C 35 29.221047 33.540594 27.774188 31.683594 26.617188 C 30.089594 25.590188 29.691406 24.979172 29.691406 23.951172 C 29.691406 22.924172 30.387047 21.960938 31.748047 21.960938 C 32.611047 21.960937 33.27625 22.249969 33.90625 22.667969 L 34.570312 20.802734 C 33.906312 20.385734 32.978797 20 31.716797 20 z"></path>
                 </svg>
@@ -172,19 +180,19 @@ function App() {
                 <h5>Folow me</h5>
                 <nav className='iconos-redes-sociales'>
                   <a className='red-icono' href="https://www.linkedin.com/in/julian-rodrigues-velasques-bb4376279/">
-                    <i className="bi bi-linkedin"></i>
+                    <i className="bi bi-linkedin iconolinkedin2"></i>
                   </a>
                   <a className='red-icono' href="https://github.com/JuliVelasques">
                     <i className="bi bi-github"></i>
                   </a>
                   <a className='red-icono' href="https://www.instagram.com/julian.04v/">
-                    <i className="bi bi-instagram"></i>
+                    <i className="bi bi-instagram iconoinstagram2"></i>
                   </a>
                   <a className='red-icono' href="https://www.facebook.com/julian.velasques.71/about_overview">
-                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-facebook iconofacebook2"></i>
                   </a>
                   <a className='red-icono' href="">
-                    <i className="bi bi-twitter"></i>
+                    <i className="bi bi-twitter iconotwitter2"></i>
                   </a>
                 </nav>
               </div>
@@ -193,13 +201,13 @@ function App() {
           <div className='sub-cuerpo'>
             <form className='cuerpo' action="https://formsubmit.co/c6da41a5b590655b858402a8ef49d56b" method="POST">
               <label htmlFor="Nombre"></label>
-              <input className='formulario-datos' type="text" name='name' placeholder='Your Name'/>
+              <input className='formulario-datos' type="text" name='name' placeholder='Your Name' />
 
               <label className='label-descripcion' htmlfor="email"></label>
-              <input className='formulario-datos' type="email" name='email' placeholder='Your email address'/>
+              <input className='formulario-datos' type="email" name='email' placeholder='Your email address' />
 
               <label className='label-descripcion' htmlfor="subject"></label>
-              <input className='formulario-datos' type="text" name='subject' placeholder='Your budget (opcional)'/>
+              <input className='formulario-datos' type="text" name='subject' placeholder='Your budget (opcional)' />
 
               <label className='label-descripcion' htmlfor="comments">Your project description</label>
               <textarea className='descripcion' name="comments" cols="15" rows="5"></textarea>
