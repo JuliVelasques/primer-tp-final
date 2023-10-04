@@ -171,11 +171,11 @@
 
 /* Segunda Parte */
 .Navbar {
-    height: 100px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
-    align-items: end;
-    margin-top: 130px;
+    align-items: center;
+    margin-top: 60px;
 }
 
 .nav_logo {
@@ -186,10 +186,16 @@
 }
 
 .nav_logo i {
-    width: 22vh;
     display: flex;
     justify-content: end;
     font-size: 60px;
+}
+
+.nav_logo .hamburguesa{
+    display: flex;
+    align-items: start;
+    height: 12.5vh;
+    width: 24vh;
 }
 
 .nav_items a {
@@ -227,26 +233,31 @@
     .nav_items {
         position: absolute;
         top: 100px;
-        margin-top: 125%;
+        margin-top: 146.9vh;
         padding: 30% 0;
-        left: 0;
+        right: 0;
         background: rgb(107, 106, 105);
         display: flex;
         flex-direction: column;
-        width: 50%;
-        height: -webkit-fill-available;
-        transform: translateX(-100%);
+        width: 60%;
+        height: 105vh;
+        transform: translateX(100%);
         transition: 0.3s ease all;
     }
 
     .nav_items.open {
         transform: translateX(0) !important;
     }
+    .nav_items a{
+        color: white;
+    }
 
     .nav_toggle {
         display: flex !important;
         flex-direction: column;
         margin: 15px;
+        width: 65px;
+        height: 30px;
     }
 
     .nav_toggle span {
@@ -344,6 +355,7 @@
 
 .ubicacionIconos .biLinkedin1:hover {
     color: #0077B5;
+    
 }
 
 .biGithub1 {
@@ -469,28 +481,31 @@
     width: calc(27% - 2px);
     display: flex;
     margin: 10px 20px 20px 0;
-    /* background-color: blue; */
-
 }
 
 .padre-iconos .iconos-trabajo .icono1:hover {
     color: rgb(255, 145, 0);
+    transform: scale(1.1);
 }
 
 .padre-iconos .iconos-trabajo .icono2:hover {
     color: rgb(51, 122, 183);
+    transform: scale(1.1);
 }
 
 .padre-iconos .iconos-trabajo .icono3:hover {
     color: rgb(98, 26, 165);
+    transform: scale(1.1);
 }
 
 .padre-iconos .iconos-trabajo .icono4:hover {
     color: rgb(238, 202, 1);
+    transform: scale(1.1);
 }
 
 .padre-iconos .iconos-trabajo .icono5:hover {
     color: rgb(0, 122, 204);
+    transform: scale(1.1);
 }
 
 .iconos-abajo-linea {
@@ -517,6 +532,17 @@
     width: 60px;
     margin: 20px 0;
 }
+
+#mi-svg:hover{
+    fill: red;
+    transform: scale(1.1);
+}
+
+#mi-svg-2:hover{
+    fill: #035f91;
+    transform: scale(1.1);
+}
+
 
 .texto-iconos-skills {
     font-size: 18px;
@@ -1083,4 +1109,115 @@
         width: 65%;
     }
     /* Segunda Parte */
+    .texto-h{
+        height: 80%;
+    }
+    .tituloTexto{
+        font-size: 26.5px;
+        height: 13%;
+        padding: 15px 0 0 30px;
+    }
+    .textoSubtitulo{
+        font-size: 20px;
+        padding: 0 0 0 35px;
+    }
+    .miImagen1{
+        height: 85%;
+        width: 32%;
+    }
+    .finaParteInicial{
+        align-items: start;
+        height: 20vh;
+        margin-bottom: 20vh;
+    }
+    .ubicacionTexto{
+        width: 30%;
+    }
+    /* Tercera Parte */
+    .seccion-WhatIdo{
+        margin-top: 75vh;
+    }
+    .titulo-whatido{
+        width: 60%;
+        font-size: 38px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .div-texto-que-hago{
+        flex-wrap: wrap;
+    }
+    .divs{
+        width: 30%;        
+    }
+    /* Cuarta Parte */
+    .padre-iconos{
+        margin-top: 12%;
+    }
+    .sub-icono{
+        width: 20vh;
+    }
+    /* Quinta Parte */
+    .texto-founder{
+        width: 100%;
+        text-align: justify;
+    }
+    .linea-gris{
+        width: 100%;
+    }
+    /* Sexta Parte */
+    .parte-contactame{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parte-di-hola{
+        width: 85%;
+        margin-bottom: 100px ;
+    }
+    .sub-cuerpo{
+        width: 85%;
+    }
+    /* Septima Parte */
+    .tipografia{
+        height: 230vh;
+    }
+
+    .titulo-tipografia{
+        width: 30%;
+    }
+
+    .forma-tipografica{
+        height: 120vh;
+        margin-top: 20px;
+    }
+
+    .letras-a{
+        font-size: 62vh;
+    }
+    .titulo-abcdario{
+        font-size: 40px;
+        height: 10vh;
+    }
+
+    .colorblanco{
+        width: 23vh;
+        height: 25vh;
+    }
+    .colornegro{
+        width: 21vh;
+        height: 23vh;
+    }
+
+    /* Octava Parte */
+    .titulo-ultima-parte{
+        font-size: 11vh;
+    }
+    .sub-titulo-ultima-parte{
+        font-size: 5vh;
+    }
+    .pagina-com{
+        font-size: 3.5vh;
+    }
+    .texto-gmail{
+        font-size: 3.5vh;
+    }
 }
