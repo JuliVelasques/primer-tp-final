@@ -48,7 +48,7 @@
 .bi-list {
     width: 100px;
     height: 60px;
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     align-items: end;
 }
@@ -181,7 +181,6 @@
 .nav_logo {
     font-weight: bold;
     font-size: 20px;
-    margin: 15px;
     color: #212121;
 }
 
@@ -1219,5 +1218,154 @@
     }
     .texto-gmail{
         font-size: 3.5vh;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px){
+    /* Primera parte */
+    .fondo{
+        height: 135vh;
+    }
+    .primerTitulo{
+        font-size: 11px;
+        width: 65%;
+        height: 30vh;
+    }
+    .comienzo{
+        width: 100%;
+    }
+    .contenedorUno{
+        border: 2px solid black;
+        padding: 20px;
+    }
+    .contenedoIconoYTexto{
+        width: 100%;
+    }
+    .contenedoIconoYTexto i{
+        font-size: 40px;
+        align-items: center;
+        width: 45px;
+    }
+    .menuTexto{
+        width: 65%;
+        height: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .padrePrimeraParte{
+        flex-direction: column;
+        width: 100%;
+    }
+    .medioPrimeraParte{
+
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        padding-top: 20px;
+    }
+    .tituloMedioPrimeraParte{
+        width: 100%;
+        align-items: center;
+    }
+    .textoMedioSegundaParte{
+        width: 100%;
+        padding-bottom: 90px;
+    }
+    .miImagen{
+        width: 100%;
+        height: 120px;
+        margin-top: 75px;
+        justify-content: center;
+    }
+    .imagen{
+        width: 110px;
+        height: 110px;
+        border-radius: 100px;
+    }
+    /* Segunda Parte */
+    .nav_logo .hamburguesa{
+        width: 10vh;
+        align-items: center;
+    }
+    .nav_toggle{
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav_items {
+        position: absolute;
+        top: 100px;
+        margin-top: 135vh;
+        padding: 30% 0;
+        right: 0;
+        background: rgb(107, 106, 105);
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        height: 100vh;
+        transform: translateX(115%);
+        transition: 0.3s ease all;
+    }
+
+    .textoEImagen{
+        flex-direction: column;
+    }
+
+    .texto-h{
+        width: 100%;
+    }
+    .tituloTexto{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+    }
+    .textoSubtitulo{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .miImagen1{
+        width: 100%;
+        justify-content: center;
+        align-items: start;
+    }
+    .imagen1{
+        width: 200px;
+        height: 200px;
+    }
+    .finaParteInicial{
+        justify-content: space-between;
+    }
+    .ubicacionIconos{
+        height: 100%;
+        width: 42%;
+        margin-left: 0%;
+        align-items: center;
+
+    }
+    .ubicacionTexto{
+        width: 55%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-WhatIdo{
+        /* margin-top: 160vh; */
+        background-color: #0077B5;
+        width: 100%;
+        height: 70%;
+        margin: 0%;
+    }
+    .titulo-whatido{
+        width: 100%;
+    }
+    .divs{
+        width: 100%;
+        margin: 10px;
     }
 }

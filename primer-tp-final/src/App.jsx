@@ -27,7 +27,7 @@ function App() {
             </div>
             <div className='padrePrimeraParte'>
               <div className='medioPrimeraParte'>
-                <h1 className='tituloMedioPrimeraParte'>I'm <b className='textoNegro'> Mehmet Eren Olgum</b></h1>
+                <h1 className='tituloMedioPrimeraParte'>I'm  Mehmet Eren Olgum</h1>
                 <p className='textoMedioSegundaParte'>Entrepreneur, front-end developer, UI & UX designer and student.</p>
               </div>
               <div className='miImagen'>
@@ -71,9 +71,7 @@ function App() {
         </div>
         <div className='textoEImagen'>
           <div className='texto-h'>
-            <h1 className='tituloTexto'>
-              I'm <b className='distincionDeLetra'>Mehmet Eren Olgum</b>
-            </h1>
+            <h1 className='tituloTexto'>I'm Mehmet Eren Olgum</h1>
             <h3 className='textoSubtitulo'>Entrepreneur, front-end developer, UI & UX designer and student.</h3>
           </div>
           <div className='miImagen1'>
