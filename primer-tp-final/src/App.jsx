@@ -80,18 +80,18 @@ function App() {
         </div>
         <div className='finaParteInicial'>
           <div className='ubicacionIconos'>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/julian-rodrigues-velasques-bb4376279/" target="_blank" rel="noopener noreferrer">
               <i className="biLinkedin1 bi-linkedin"></i>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/JuliVelasques" target="_blank" rel="noopener noreferrer">
               <i className="biGithub1 bi-github"></i>
             </a>
 
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/julian.04v/" target="_blank" rel="noopener noreferrer">
               <i className="biInstagram1 bi-instagram"></i>
             </a>
 
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/julian.velasques.71" target="_blank" rel="noopener noreferrer">
               <i className="biFacebook1 bi-facebook"></i>
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
@@ -136,16 +136,16 @@ function App() {
             <div class="linea-negra"></div>
             <div className='iconos-abajo-linea'>
               <div className='icono-adobe'>
-                <svg id='mi-svg' className='sub-icono' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                <svg id='mi-svg' className='sub-icono' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 50 50">
                   <path d="M 6 4 C 4.9069372 4 4 4.9069372 4 6 L 4 44 C 4 45.093063 4.9069372 46 6 46 L 44 46 C 45.093063 46 46 45.093063 46 44 L 46 6 C 46 4.9069372 45.093063 4 44 4 L 6 4 z M 6 6 L 44 6 L 44 44 L 6 44 L 6 6 z M 34.5 14 L 34.5 21.867188 L 34.5 21.875 C 33.893 20.564 32.823125 20 31.703125 20 C 29.303125 20 27 22.372 27 27.875 C 27 32.996 28.856469 36.3125 31.480469 36.3125 C 33.111469 36.3125 34.02 35.463 34.5 34.375 L 34.5 36 L 37 36 C 36.968 35.104 37 33.681 37 32.625 L 37 14 L 34.5 14 z M 13.035156 15 L 18.517578 25.5 L 13.035156 36 L 15.5 36 L 19.755859 27.873047 L 24 36 L 26.5 36 L 21 25.5 L 26.5 15 L 24 15 L 19.755859 23.126953 L 15.5 15 L 13.035156 15 z M 32.246094 22.111328 C 33.430094 22.111328 34.358328 23.525 34.486328 25.125 C 34.518328 25.476 34.486328 25.8685 34.486328 26.1875 L 34.486328 30.75 C 34.486328 30.75 34.457328 31.337 34.361328 31.625 C 33.817328 33.864 32.824641 34.263672 32.056641 34.263672 C 30.264641 34.263672 29.462891 31.139 29.462891 27.875 C 29.462891 24.772 30.198094 22.111328 32.246094 22.111328 z"></path>
                 </svg>
                 <p className='texto-icono-abajo'>Adobe Xd</p>
               </div>
               <div className='icono-photoshop'>
-                <svg id='mi-svg-2' className='sub-icono' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                <svg id='mi-svg-2' className='sub-icono' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 50 50">
                   <path d="M 6 4 C 4.9069372 4 4 4.9069372 4 6 L 4 44 C 4 45.093063 4.9069372 46 6 46 L 44 46 C 45.093063 46 46 45.093063 46 44 L 46 6 C 46 4.9069372 45.093063 4 44 4 L 6 4 z M 6 6 L 44 6 L 44 44 L 6 44 L 6 6 z M 18.585938 14 C 17.145937 14 15.993953 14.160016 15.001953 14.416016 L 15 36 L 17.464844 36 L 17.464844 26.830078 C 17.816844 26.861078 18.136734 26.861328 18.552734 26.861328 C 20.472734 26.861328 22.488625 26.062891 23.640625 24.462891 C 24.473625 23.374891 24.951172 22.030875 24.951172 20.046875 C 24.951172 18.159875 24.407766 16.590406 23.384766 15.566406 C 22.264766 14.478406 20.568938 14 18.585938 14 z M 18.976562 15.640625 C 21.727562 15.640625 22.623047 17.622078 22.623047 19.830078 C 22.623047 22.870078 20.990797 24.470703 18.591797 24.470703 C 18.175797 24.470703 17.887609 24.439203 17.599609 24.408203 L 17.599609 15.800781 C 17.919609 15.703781 18.400562 15.640625 18.976562 15.640625 z M 31.716797 20 C 29.225797 20 27.300781 21.768641 27.300781 24.306641 C 27.300781 26.073641 28.427531 27.423234 30.519531 28.740234 C 32.145531 29.768234 32.576172 30.603969 32.576172 31.792969 C 32.576172 33.173969 31.648703 34.041016 30.220703 34.041016 C 29.190703 34.041016 28.194859 33.591281 27.630859 33.238281 L 27 35.099609 C 27.697 35.645609 28.992297 36 30.154297 36 C 32.810297 36 35 34.490047 35 31.373047 C 35 29.221047 33.540594 27.774188 31.683594 26.617188 C 30.089594 25.590188 29.691406 24.979172 29.691406 23.951172 C 29.691406 22.924172 30.387047 21.960938 31.748047 21.960938 C 32.611047 21.960937 33.27625 22.249969 33.90625 22.667969 L 34.570312 20.802734 C 33.906312 20.385734 32.978797 20 31.716797 20 z"></path>
                 </svg>
-                <p className='texto-icono-abajo'>Photoshop</p>
+                  <p className='texto-icono-abajo'>Photoshop</p>
               </div>
               {/* <img className='icono-de-abajo' src={iconoUno} alt="icono" /> <p>Photoshop</p>*/}
             </div>
@@ -172,7 +172,7 @@ function App() {
             <div className='texto-icono-dihola'>
               <div>
                 <h5>Mail me at</h5>
-                <p>eren@jayrida.com</p>
+                <p >eren@jayrida.com</p>
               </div>
               <div className='iconos-sigueme'>
                 <h5>Folow me</h5>
@@ -197,7 +197,7 @@ function App() {
             </div>
           </div>
           <div className='sub-cuerpo'>
-            <form className='cuerpo' action="https://formsubmit.co/c6da41a5b590655b858402a8ef49d56b" method="POST">
+            <form className='cuerpo' action="https://formsubmit.co/julirodriguesvelasques@gmail.com" method="POST">
               <label htmlFor="Nombre"></label>
               <input className='formulario-datos' type="text" name='name' placeholder='Your Name' />
 
