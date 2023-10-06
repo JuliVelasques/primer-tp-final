@@ -165,7 +165,6 @@
     font-size: 17px;
 }
 
-/* Segunda Parte */
 .Navbar {
     height: 130px;
     display: flex;
@@ -193,7 +192,7 @@
     height: 100px;
 }
 
-.nav_logo .hamburguesa{
+.nav_logo .hamburguesa {
     display: flex;
     align-items: start;
     height: 12.5vh;
@@ -250,7 +249,8 @@
     .nav_items.open {
         transform: translateX(0) !important;
     }
-    .nav_items a{
+
+    .nav_items a {
         color: white;
     }
 
@@ -284,7 +284,7 @@
         transform: rotate(-45deg) translate(-5px, 1px);
     }
 
-    .nav_logo{
+    .nav_logo {
         width: 32%;
     }
 
@@ -365,7 +365,7 @@
 
 .ubicacionIconos .biLinkedin1:hover {
     color: #0077B5;
-    
+
 }
 
 .biGithub1 {
@@ -438,11 +438,6 @@
     justify-content: center;
 }
 
-.bi-icono-telefono {
-    font-size: 35px;
-}
-
-/* .bi-icono- */
 .bi-icono-display {
     width: 40px;
 }
@@ -457,7 +452,6 @@
     width: 350px;
 }
 
-/* Skills */
 .padre-iconos {
     display: flex;
     flex-direction: column;
@@ -543,12 +537,12 @@
     margin: 20px 0;
 }
 
-#mi-svg:hover{
+#mi-svg:hover {
     fill: red;
     transform: scale(1.1);
 }
 
-#mi-svg-2:hover{
+#mi-svg-2:hover {
     fill: #035f91;
     transform: scale(1.1);
 }
@@ -579,7 +573,6 @@
     flex-direction: row; */
 }
 
-/* seccion-de-experiencia */
 .seccion-de-experiencia {
     display: flex;
     flex-direction: column;
@@ -620,8 +613,6 @@
     height: calc(2px);
     background-color: rgb(204, 204, 204);
 }
-
-/* Parte de Contact me */
 
 .parte-contactame {
     display: flex;
@@ -757,7 +748,6 @@
     font-weight: 700;
 }
 
-/* Tipografia */
 .tipografia {
     background-color: #212121;
     width: 100%;
@@ -881,7 +871,6 @@
     margin-top: 5px;
 }
 
-/* Footer */
 .estructura-ultima-parte {
     height: 80vh;
 }
@@ -923,10 +912,10 @@
 
 @media (max-width:1024px) {
 
-    /* parte inicial */
-    .fondo{
+    .fondo {
         height: 880px;
     }
+
     .primerTitulo {
         width: 45%;
     }
@@ -966,7 +955,6 @@
         height: 155px;
     }
 
-    /* segunda Parte */
     .nav_logo i {
         display: flex;
         align-items: end;
@@ -1005,7 +993,6 @@
         width: 25%;
     }
 
-    /* cuarta Parte */
     .icono {
         width: 25%;
     }
@@ -1024,7 +1011,6 @@
         width: 28%;
     }
 
-    /* quinta Parte */
     .parte-di-hola {
         margin-right: 12px;
         padding: 0 10px;
@@ -1038,7 +1024,6 @@
         width: 55%;
     }
 
-    /* sexta Parte */
     .tipografia {
         height: 255vh;
     }
@@ -1068,7 +1053,6 @@
         width: 21%;
     }
 
-    /* septima Parte */
     .titulo-ultima-parte {
         font-size: 75px;
         align-items: end;
@@ -1079,177 +1063,204 @@
     }
 }
 
-@media (max-width:768px){
-    /* Primera Parte */
-    .comienzo{
+@media (max-width:768px) {
+    .comienzo {
         margin-top: -10px;
     }
-    .contenedorUno{
+
+    .contenedorUno {
         width: 85%;
         padding: 40px;
     }
-    .contenedoIconoYTexto i{
+
+    .contenedoIconoYTexto i {
         align-items: start;
     }
-    .menuTexto{
+
+    .menuTexto {
         align-items: center;
         height: 43px;
     }
-    .tituloMedioPrimeraParte, .textoNegro{
+
+    .tituloMedioPrimeraParte,
+    .textoNegro {
         font-size: 26px;
         height: 23vh;
     }
-    .textoMedioSegundaParte{
+
+    .textoMedioSegundaParte {
         font-size: 16px;
         align-items: start;
         width: 60vh;
     }
-    .miImagen{
-        height: 45vh;
 
+    .miImagen {
+        height: 45vh;
     }
-    .imagen{
+
+    .imagen {
         width: 30vh;
         height: 33vh;
     }
-    .iconosParteFinalInicio{
+
+    .iconosParteFinalInicio {
         width: 35%;
     }
-    .finalParteInicial{
+
+    .finalParteInicial {
         width: 65%;
     }
-    /* Segunda Parte */
-    .texto-h{
+
+    .texto-h {
         height: 80%;
     }
-    .tituloTexto{
+
+    .tituloTexto {
         font-size: 26.5px;
         height: 13%;
         padding: 15px 0 0 30px;
     }
-    .textoSubtitulo{
+
+    .textoSubtitulo {
         font-size: 20px;
         padding: 0 0 0 35px;
     }
-    .miImagen1{
+
+    .miImagen1 {
         height: 85%;
         width: 32%;
     }
-    .finaParteInicial{
+
+    .finaParteInicial {
         align-items: start;
         height: 20vh;
         margin-bottom: 20vh;
     }
-    .ubicacionTexto{
+
+    .ubicacionTexto {
         width: 30%;
     }
-    /* Tercera Parte */
-    .seccion-WhatIdo{
+
+    .seccion-WhatIdo {
         margin-top: 75vh;
     }
-    .titulo-whatido{
+
+    .titulo-whatido {
         width: 60%;
         font-size: 38px;
         align-items: center;
         margin-bottom: 15px;
     }
-    .div-texto-que-hago{
+
+    .div-texto-que-hago {
         flex-wrap: wrap;
     }
-    .divs{
-        width: 30%;        
-    }
-    /* Cuarta Parte */
-    .padre-iconos{
-        margin-top: 12%;
-    }
-    .sub-icono{
-        width: 20vh;
-    }
-    /* Quinta Parte */
-    .texto-founder{
-        width: 100%;
-        text-align: justify;
-    }
-    .linea-gris{
-        width: 100%;
-    }
-    /* Sexta Parte */
-    .parte-contactame{
-        flex-direction: column;
-        align-items: center;
-    }
-    .parte-di-hola{
-        width: 85%;
-        margin-bottom: 100px ;
-    }
-    .sub-cuerpo{
-        width: 85%;
-    }
-    /* Septima Parte */
-    .tipografia{
-        height: 230vh;
-    }
 
-    .titulo-tipografia{
+    .divs {
         width: 30%;
     }
 
-    .forma-tipografica{
+    .padre-iconos {
+        margin-top: 12%;
+    }
+
+    .sub-icono {
+        width: 20vh;
+    }
+
+    .texto-founder {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .linea-gris {
+        width: 100%;
+    }
+
+    .parte-contactame {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte-di-hola {
+        width: 85%;
+        margin-bottom: 100px;
+    }
+
+    .sub-cuerpo {
+        width: 85%;
+    }
+
+    .tipografia {
+        height: 230vh;
+    }
+
+    .titulo-tipografia {
+        width: 30%;
+    }
+
+    .forma-tipografica {
         height: 120vh;
         margin-top: 20px;
     }
 
-    .letras-a{
+    .letras-a {
         font-size: 62vh;
     }
-    .titulo-abcdario{
+
+    .titulo-abcdario {
         font-size: 40px;
         height: 10vh;
     }
 
-    .colorblanco{
+    .colorblanco {
         width: 23vh;
         height: 25vh;
     }
-    .colornegro{
+
+    .colornegro {
         width: 21vh;
         height: 23vh;
     }
 
-    /* Octava Parte */
-    .titulo-ultima-parte{
+    .titulo-ultima-parte {
         font-size: 11vh;
     }
-    .sub-titulo-ultima-parte{
+
+    .sub-titulo-ultima-parte {
         font-size: 5vh;
     }
-    .pagina-com{
+
+    .pagina-com {
         font-size: 3.5vh;
     }
-    .texto-gmail{
+
+    .texto-gmail {
         font-size: 3.5vh;
     }
 }
 
-@media (min-width:320px) and (max-width:425px){
-    /* Primera parte */
-    .fondo{
+@media (min-width:320px) and (max-width:425px) {
+    .fondo {
         height: 135vh;
     }
-    .primerTitulo{
+
+    .primerTitulo {
         font-size: 11px;
         width: 65%;
         height: 30vh;
     }
-    .comienzo{
+
+    .comienzo {
         width: 100%;
     }
-    .contenedorUno{
+
+    .contenedorUno {
         border: 2px solid black;
         padding: 20px;
     }
-    .contenedoIconoYTexto{
+
+    .contenedoIconoYTexto {
         width: 100%;
     }
 
@@ -1261,55 +1272,64 @@
         width: 100%;
     }
 
-    .menuTexto{
+    .menuTexto {
         width: 65%;
         height: 100%;
         flex-wrap: wrap;
         padding: 10px;
         justify-content: space-evenly;
     }
-    .padrePrimeraParte{
+
+    .padrePrimeraParte {
         flex-direction: column;
         width: 100%;
     }
-    .medioPrimeraParte{
+
+    .medioPrimeraParte {
 
         text-align: center;
         width: 100%;
         height: 100px;
         padding-top: 20px;
     }
-    .tituloMedioPrimeraParte{
+
+    .tituloMedioPrimeraParte {
         width: 100%;
         align-items: center;
     }
-    .textoMedioSegundaParte{
+
+    .textoMedioSegundaParte {
         width: 100%;
         padding-bottom: 90px;
     }
-    .miImagen{
+
+    .miImagen {
         width: 100%;
         height: 120px;
         margin-top: 75px;
         justify-content: center;
     }
-    .imagen{
+
+    .imagen {
         width: 110px;
         height: 110px;
         border-radius: 100px;
     }
-    /* Segunda Parte */
-    .nav_logo{
+
+    .nav_logo {
         width: 32%;
     }
+
     .nav_logo .i {
         height: 100px;
     }
-    .nav_logo .hamburguesa{
+
+    .nav_logo .hamburguesa {
         width: 10vh;
         align-items: center;
     }
-    .nav_toggle{
+
+    .nav_toggle {
         align-items: center;
         justify-content: end;
     }
@@ -1329,20 +1349,22 @@
         transition: 0.3s ease all;
     }
 
-    .textoEImagen{
+    .textoEImagen {
         flex-direction: column;
     }
 
-    .texto-h{
+    .texto-h {
         width: 100%;
     }
-    .tituloTexto{
+
+    .tituloTexto {
         width: 100%;
         height: 120px;
         display: flex;
         align-items: center;
     }
-    .textoSubtitulo{
+
+    .textoSubtitulo {
         width: 100%;
         height: 130px;
         display: flex;
@@ -1351,72 +1373,84 @@
         padding: 20px;
         text-align: start;
     }
-    .miImagen1{
+
+    .miImagen1 {
         width: 100%;
         justify-content: center;
         align-items: start;
     }
-    .imagen1{
+
+    .imagen1 {
         width: 200px;
         height: 200px;
     }
-    .finaParteInicial{
+
+    .finaParteInicial {
         justify-content: space-between;
     }
-    .ubicacionIconos{
+
+    .ubicacionIconos {
         height: 100%;
         width: 42%;
         margin-left: 0%;
         align-items: center;
 
     }
-    .ubicacionTexto{
+
+    .ubicacionTexto {
         width: 55%;
         height: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    /* Tercera Parte */
-    .seccion-WhatIdo{
+    .seccion-WhatIdo {
         width: 100%;
         height: 70%;
         margin: 0%;
     }
-    .titulo-whatido{
+
+    .titulo-whatido {
         width: 100%;
     }
-    .divs{
+
+    .divs {
         width: 100%;
         margin: 10px;
     }
-    /* Cuarta Parte */
 
-    .tituloSkills{
+    .tituloSkills {
         justify-content: center;
     }
-    .iconos-trabajo{
+
+    .iconos-trabajo {
         width: 100%;
     }
-    .icono{
+
+    .icono {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .texto-iconos-skills{
+
+    .texto-iconos-skills {
         font-size: 15px;
         justify-content: center;
         font-weight: 600;
     }
-    .linea-negra{
+
+    .linea-negra {
         width: 100%;
     }
-    .icono-adobe, .icono-photoshop{
+
+    .icono-adobe,
+    .icono-photoshop {
         width: 50%;
         margin: 0 10px;
         flex-direction: column;
     }
-    .texto-icono-abajo{
+
+    .texto-icono-abajo {
         width: 10px;
         width: 90%;
         text-align: center;
@@ -1424,63 +1458,71 @@
         font-weight: 700;
     }
 
-    /* Quinta Parte */
-    .subtitulo-experiencia{
+    .subtitulo-experiencia {
         height: 100px;
     }
 
-    /* Sexta Parte */
-    .texto-di-hola{
+    .texto-di-hola {
         font-size: 20px;
         width: 100%;
     }
-    .texto-icono-dihola{
+
+    .texto-icono-dihola {
         font-size: 15px;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
     }
 
-    /* Septima Parte */
-    .tipografia{
+    .tipografia {
         height: 270vh;
     }
-    .sub-cuerpo{
+
+    .sub-cuerpo {
         width: 100%;
     }
-    .titulo-tipografia{
+
+    .titulo-tipografia {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .forma-tipografica{
+
+    .forma-tipografica {
         flex-direction: column;
         height: 150vh;
     }
-    .Aa{
+
+    .Aa {
         height: 50vh;
         width: 100%;
     }
-    .letras-a{
+
+    .letras-a {
         font-size: 45vh;
         display: flex;
         align-items: start;
     }
-    .abcdario{
+
+    .abcdario {
         width: 90%;
     }
-    .numeros-tipografia{
+
+    .numeros-tipografia {
         margin-top: 40px;
         width: 100%;
     }
-    .titulo-colores{
+
+    .titulo-colores {
         width: 100%;
         justify-content: center;
     }
-    .posicion-colores{
+
+    .posicion-colores {
         width: 100%;
     }
-    .posicion-colores1{
+
+    .posicion-colores1 {
         width: 50%;
         margin: 0%;
         padding: 0%;
@@ -1489,9 +1531,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
+
     }
-    .posicion-colores2{
+
+    .posicion-colores2 {
         width: 50%;
         height: 100%;
         display: flex;
@@ -1499,22 +1542,26 @@
         align-items: center;
         flex-direction: column;
     }
-    .colorblanco, .colornegro{
+
+    .colorblanco,
+    .colornegro {
         width: 85px;
         height: 100px;
     }
 
-    /* Octava Parte */
-    .titulo-ultima-parte{
+    .titulo-ultima-parte {
         font-size: 40px;
         height: 150px;
         text-align: center;
     }
-    .sub-titulo-ultima-parte{
+
+    .sub-titulo-ultima-parte {
         font-size: 22px;
         height: 80px;
     }
-    .pagina-com, .texto-gmail{
+
+    .pagina-com,
+    .texto-gmail {
         font-size: medium;
     }
 }

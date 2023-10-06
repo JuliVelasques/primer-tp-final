@@ -1,6 +1,7 @@
 import logo from './assets/imagen.png';
-import iconoUno from './assets/icono-fotoshop.svg';
 import iconodos from './assets/logo-design.svg';
+import iconotres from './assets/code-square.svg';
+import iconocuatro from './assets/icon-phono.svg';
 import React, { useState } from "react";
 import './App.css'
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <section className='fondo'>
+
         <h3 className='primerTitulo' id='Home'>WEB DESIGN / 2020</h3>
         <section className='comienzo'>
           <nav className='contenedorUno'>
@@ -55,12 +57,11 @@ function App() {
       <header>
         <div className="Navbar">
           <div className="nav_logo">
-            {/* <i className="bi bi-list hamburguesa"></i> */}
             <svg className='i hamburguesa' viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m24 30-8-4-8 4V10h16v20z" fill="#ffffff" class="fill-ffc661"></path><path d="M24 31a1 1 0 0 1-.45-.11L16 27.12l-7.55 3.77A1 1 0 0 1 7 30V10a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v20a1 1 0 0 1-.47.85A1 1 0 0 1 24 31Zm-8-6a1 1 0 0 1 .45.11L23 28.38V11H9v17.38l6.55-3.27A1 1 0 0 1 16 25Z" fill="#333131" class="fill-6d6daa"></path><circle cx="16" cy="12" r="10" fill="#ffffff" class="fill-eef5fd"></circle><path d="M16 23a11 11 0 1 1 11-11 11 11 0 0 1-11 11Zm0-20a9 9 0 1 0 9 9 9 9 0 0 0-9-9Z" fill="#333131" class="fill-6d6daa"></path></svg>
           </div>
           <div className={`nav_items ${isOpen && "open"}`}>
             <a href="#Home">Home</a>
-            <a href="#Servicio">Servicio</a>
+            <a href="#Servicio">Services</a>
             <a href="#Skills">Skills</a>
             <a href="#Experience">Experience</a>
             <a href="#Contact">Contact</a>
@@ -115,12 +116,12 @@ function App() {
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
-              <i className="bi-icono-display bi-display"></i>
+            <img className="bi-icono-display" src={iconotres} alt="logo" />
               <h2 className='titulos-de-que-hago'>Webside</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
             <div className='divs'>
-              <i class="bi-icono-telefono bi-phone"></i>
+              <img className="bi-icono-display" src={iconocuatro} alt="logo" />
               <h2 className='titulos-de-que-hago'>Mobile Aplication</h2>
               <p>Curabitur quis interdum augue, sed convallis nunc. Praesent finibus turpis eu urna cursus, porttitor facilisis odio ultrices. Pellentesque malesuada mi eget interdum rhoncus dictum.</p>
             </div>
