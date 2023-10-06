@@ -150,7 +150,6 @@ function App() {
                 </svg>
                 <p className='texto-icono-abajo'>Photoshop</p>
               </div>
-              {/* <img className='icono-de-abajo' src={iconoUno} alt="icono" /> <p>Photoshop</p>*/}
             </div>
           </ul>
         </section>
